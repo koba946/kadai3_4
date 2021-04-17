@@ -1,12 +1,40 @@
-
-.slder {
- margin: 100px auto;
- width: 80%;
+body {
+    background-color: #7fffbf;
 }
 
+.slider{
+    margin-top: 50px auto;
+    width: 80%;
+    height: 70%;
+    
+    background-color: orange;
+    
+}
+
+.slider img{
+    height: 100%;
+    width: auto;
+    margin-left: 5px;
+    margin-right: 10px;
+    /*paddingを入れると、画像がスリックの枠の内側に入ってしまってデザインが狂う。
+    padding: 15px;
+    */
+}
+
+.slick-prev {
+left: 20px !important;
+}
+
+/*
 .slider img {
-  height: 60%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
 }
+*/
 
+/*slick setting*/
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
+}
 
